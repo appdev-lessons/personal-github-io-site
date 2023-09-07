@@ -3,7 +3,7 @@
 * Table of Contents
 {:toc}
 
-You have already created a couple of project repositories to house static HTML for the ["Hello, World"](https://learn.firstdraft.com/lessons/55) and [Link in bio](https://learn.firstdraft.com/lessons/57) lessons.
+You have already created a couple of project repositories to house static HTML for the ["Hello, World"](https://learn.firstdraft.com/lessons/55-hello-world) and [Link in bio](https://learn.firstdraft.com/lessons/57-linkinbio) lessons.
 
 We saw that those pages were hosted at `https://<your-username>.github.io/hello-world/` and `https://<your-username>.github.io/links/`, respectively. 
 
@@ -15,7 +15,7 @@ Let's turn that page into a new repository that you can use to host your persona
 
 As opposed to the majority of class projects, where you will be forking a repository and getting automated feedback with `rake grade`, in this case you will **create a repository from a template**.
 
-You can find more information on this template and [other upcoming templates in this lesson](https://learn.firstdraft.com/lessons/60). 
+You can find more information on this template and [other upcoming templates in this lesson](https://learn.firstdraft.com/lessons/60-appdev-templates). 
 
 - Visit our [appdev-projects/html-template](https://github.com/appdev-projects/html-template) repository and click the "Use this template" button, and select "Create a new repository" from the dropdown:
 
@@ -44,12 +44,12 @@ What does that mean for us practically?
 
 * Just like a fork, the template generated repo contains a snapshot of all of the code in the repository you generated the template from.
 * The template generated code is not tied to the upstream forked repository, meaning that changes to the upstream fork (i.e. commits) cannot be easily fetched into the new codebase.
-* Creating Codespaces from the template generated repo [will use your free monthly Codespace hours](https://learn.firstdraft.com/lessons/60#a-note-about-codespace-hours).
+* Creating Codespaces from the template generated repo [will use your free monthly Codespace hours](https://learn.firstdraft.com/lessons/60-appdev-templates#a-note-about-codespace-hours).
 * Template generated code is not graded, so `rake grade` won't be necessary. The templates are just there for you to have fun with and build your own apps!
 
 ## The usual steps to deploy on GitHub Pages
 
-As before, you will also need to [enable GitHub Pages](https://learn.firstdraft.com/lessons/55#enable-github-pages-deployment), on the `github.com/<your-username>/<your-username>.github.io` repository that you just created.
+As before, you will also need to [enable GitHub Pages](https://learn.firstdraft.com/lessons/55-hello-world#enable-github-pages-deployment), on the `github.com/<your-username>/<your-username>.github.io` repository that you just created.
 
 With GitHub Pages setup, you can go ahead and begin adding content to your `<your-username>/<your-username>.github.io` repository in a fresh Codespace.
 
